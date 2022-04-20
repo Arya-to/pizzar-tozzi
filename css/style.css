@@ -124,6 +124,11 @@ a {
     left: 50%;
 }
 
+.main-image:hover {
+    transform: rotate(360deg);
+    transition: all 5s;
+}
+
 .main-text {
     width: 45%;
     margin-left: 5px;
