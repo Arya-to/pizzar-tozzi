@@ -145,6 +145,10 @@ a {
     margin-bottom: 200px;
 }
 
+.main-boton a {
+    display: inline-block;
+}
+
 .main-boton-izq {
     color: white;
     background-color: #E2A900;
@@ -156,6 +160,13 @@ a {
     padding: 10px 45px;
     color: white;
     background-color: #020100;
+}
+
+.main-boton-der:hover,
+.main-boton-izq:hover {
+    transform: scale(1.1);
+    transition: 1.5s;
+    opacity: 0.8;
 }
 
 /* Menu Starts */
