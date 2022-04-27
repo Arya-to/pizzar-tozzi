@@ -25,16 +25,48 @@
 
 /* font-family: 'Poppins', sans-serif; */
 
+.tittle h3 {
+    font-family: 'poppins', sans-serif;
+    font-weight: 300;
+    text-transform: uppercase;
+    font-size: 2.5rem;
+    color: #828282;
+}
 
-.header-list li a{
+.tittle h1 {
+    font-family: 'bebas Neue', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 40px;
+    color: #E2A900;  
+}
+
+.header-list li a {
     font-family: bebasNeue-bold, sans-serif; 
     font-size: 24px;
     margin: 20px;
     text-align: center;
 }
 
-.navbar-light .navbar-nav .nav-link {
+.navbar-dark .navbar-nav .nav-link {
     color: #212529;
+}
+
+#bordeToggler {
+    border: solid 1px #E2A900;
+}
+
+.main-btn a {
+    font-family: bebasNeue-regular, sans-serif; 
+    font-size: 1.6rem;
+}
+
+.main-boton-izq {
+    padding: 0 50px;
+}
+
+.main-boton-der {
+    padding: 0 30px;
 }
 
 @media only screen and (max-width: 992px) {
