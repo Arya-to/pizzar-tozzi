@@ -8,43 +8,64 @@
     <link rel="shortcut icon" href="./Imagenes/logo_pizzar.png" type="image/x-icon">
     <link rel="stylesheet" href="./css/style.css">
     <script src="https://kit.fontawesome.com/16b270b3f7.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 <body>
-    <header class="header">
-        <div class="header-content">
-            <a href="#"><img class="logo" src="./Imagenes/logo_pizzar.png" alt="Logo de Pizzar"></a>
-        <nav class="barra-navegacion">
-            <ul class="barra-navegacion-lista">
-                <li>
-                    <a href="./Paginas/nosotros.html" class="links">Nosotros</a>
-                </li>
-                <li>
-                    <a href="./Paginas/menu.html" class="links">Menu</a>
-                </li>
-                <li>
-                    <a href="./Paginas/galeria.html" class="links">Galeria</a>
-                </li>
-                <li>
-                    <a href="./Paginas/contacto.html" class="links" >Contacto</a>
-                    </li>
-            </ul>
+    <!-- Header Boostrap -->
+    <header>
+        <nav class="navbar navbar-light bg-black navbar-expand-lg mb-3">
+            <div class="container-fluid mx-3 contenedor-header">
+                <a class="navbar-brand" href="./index.html">
+                    <img class="img-fluid" src="./Imagenes/logo_pizzar.png" alt="logo de pizzar" width="100" height="100">
+                </a>
+                <button class="navbar-toggler bg-warning" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                    <ul class="nav navbar-nav ms-auto mb-2 mb-lg-0 header-list">
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase text-white" aria-current="page" href="./Paginas/menu.html">menu</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase text-white" href="./Paginas/nosotros.html">Nosotros</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase text-white" href="./Paginas/galeria.html">Galeria</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase text-white" href="./Paginas/contacto.html">Contacto</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link btn btn-warning" href="https://wa.me/+5491158102877?text=Buenas! Quiero hacer un pedido">Hace tu pedido</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
         </nav>
-        </div>
     </header>
+    <!-- Fin header Boostrap -->
     <main>
-        <div class="main-text">
-            <h3>La pizza es lo nuestro</h3>
-            <h1>Estilo Napolitano<span>Estilo Pizzar</span></h1>
-        </div>
-        <div>
-            <img src="./Imagenes/pizza-1.jpg" alt="Pizza napolitana" class="main-image">
-        </div>
-        <div class="main-boton">
-            <a href="./Paginas/menu.html" class="main-boton-izq">Ver menu</a>
-            <a href="https://wa.me/+5491158102877?text=Buenas! Quiero hacer un pedido" class="main-boton-der">Hace tu pedido</a>
-        </div>
+        <section class="container">
+            <div class="row">
+                <div class="col-lg-6 d-flex align-items-center">
+                    <h3>La pizza es lo nuestro</h3>
+                    <h1>Estilo Napolitano<span>Estilo Pizzar</span></h1>
+                    <div class="col-lg-4">
+                        <a href="./Paginas/menu.html" class="main-boton-izq">Ver menu</a>
+                        <a href="https://wa.me/+5491158102877?text=Buenas! Quiero hacer un pedido" class="main-boton-der">Hace tu pedido</a>
+                    </div>
+                </div>
+                <div class="col-sm-12 col-lg-8 w-50 h-50">
+                    <img class="rounded-circle img-fluid" src="./Imagenes/pizza-1.jpg" alt="Pizza napolitana" class="main-image">
+                </div>
+            </div>
+        </section>
+
+        
+ 
     </main>
-    <footer class="footer">
+<!--     <footer class="footer">
         <div class="contenedor-footer">
             <div class="logo-footer">
                 <img src="./Imagenes/logo_footer.PNG" alt="Logo Pizzar">    
@@ -69,6 +90,8 @@
                 </ul>
             </div>
         </div>
-    </footer>
+    </footer> -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 </body>
 </html>
