@@ -13,7 +13,7 @@
 <body>
    <!-- Header Boostrap -->
    <header>
-        <nav class="navbar navbar-dark bg-black navbar-expand-lg mb-3 contenedor-header">
+        <nav class="navbar navbar-dark bg-black navbar-expand-lg contenedor-header">
             <div class="container-fluid mx-3">
                 <a class="navbar-brand" href="../index.html">
                     <img class="img-fluid" src="../Imagenes/logo_pizzar.png" alt="logo de pizzar" width="100" height="100">
@@ -49,43 +49,86 @@
         <span class="linea"></span>
         <section class="container-form">
             <form class="form">
-                <label for="nombre_completo" class="form-label">Nombre completo</label>
-                <input class="input" id="nombre_completo" type="text" name="nombre_completo" placeholder="Tu nombre" required>
-                <label for="telefono" class="form-label">Telefono</label>
-                <input class="input" id="tel" type="tel" name="telefono" placeholder="Tu telefono" required>
-                <label for="email" class="form-label">Mail</label>
-                <input class="input" id="email" type="email" name="email" placeholder="Tu mail" required>
-                <label for="direccion" class="form-label">Dirección</label>
-                <input class="input" id="direccion" type="text" name="direccion" placeholder="Tu dirección" required>
-                <label for="mensaje" class="form-label">Mensaje</label><br>
-                <textarea id="mensaje" name="mensaje" cols="70" rows="10" placeholder="Por favor dejanos tu consulta" required></textarea>
-                <input class="boton" type="button" value="Enviar">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 mb-3">
+                            <div class="col">
+                                <label for="nombre_completo" class="form-label">Nombre completo</label>
+                            </div>
+                            <div class="col">
+                                <input class="input" id="nombre_completo" type="text" name="nombre_completo" placeholder="Tu nombre" required>
+                            </div>  
+                        </div>    
+                        <div class="col-lg-6 col-md-6 mb-3">
+                            <div class="col">
+                                <label for="telefono" class="form-label">Telefono</label>
+                            </div>
+                            <div class="col">
+                                <input class="input" id="tel" type="tel" name="telefono" placeholder="Tu telefono" required> 
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-6 mb-3">
+                            <div class="col">
+                                <label for="email" class="form-label">Mail</label>
+                            </div>
+                            <div class="col">
+                                <input class="input" id="email" type="email" name="email" placeholder="Tu mail" required>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-6 mb-3">
+                            <div class="col">
+                                <label for="direccion" class="form-label">Dirección</label>
+                            </div>
+                            <div class="col">
+                                <input class="input" id="direccion" type="text" name="direccion" placeholder="Tu dirección" required>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col my-4">
+                            <label for="mensaje" class="form-label text-center">Mensaje</label><br>
+                            <textarea id="mensaje" name="mensaje" cols="70" rows="10" placeholder="Por favor dejanos tu consulta" required></textarea>
+                        </div>
+                    </div>
+                    <input class="boton btn btn-warning" type="button" value="Enviar">
+                </div>
             </form>
         </section>
     </main>
-    <footer class="footer">
-        <div class="contenedor-footer">
-            <div class="logo-footer">
-                <img src="../Imagenes/logo_footer.PNG" alt="Logo Pizzar">    
+    <!-- Footer -->
+    <footer class="contenedor-footer">
+        <div class="container-fluid">
+          <div class="row py-5">
+                <div class="col-lg-4 d-flex align-items-center justify-content-center footer-column">
+                    <img class="w-50" src="../Imagenes/logo_footer.PNG" alt="Logo Pizzar">
+                </div>
+                <div class="col-lg-4 d-flex justify-content-center flex-column align-items-center footer-column">
+                    <h4 class="text-secondary">Horarios</h4>
+                    <ul class="nav flex-column text-secondary">
+                        <li class="nav-item">Lunes y martes: Cerrado</li>
+                        <li class="nav-item">Mier a Dom: 19:30 a 23:00hs</li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 d-flex justify-content-center flex-column align-items-center footer-column">
+                    <h4 class="text-secondary">Contacto</h4>
+                    <ul class="nav flex-column text-secondary">
+                        <li class="nav-item">
+                            <i class="fab fa-whatsapp fa-2x"></i>
+                        <li class="nav-item">
+                            <i class="fab fa-instagram fa-2x"></i>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <div class="menu-footer">
-                <ul class="menu-footer-lista">
-                    <li><a href="../Paginas/nosotros.html">Nosotros</a></li>
-                    <li><a href="../Paginas/menu.html"> Menu</a></li>
-                    <li><a href="../Paginas/galeria.html">Galeria</a></li>
-                    <li><a href="../Paginas/contacto.html">Contacto</a></li>
-                </ul> 
-            </div>
-            <div>
-                <h4>Horarios de atención:</h4>
-                <p>Mier - Dom 19:00 a 23:00</p>
-            </div>
-            <div>
-                <ul class="menu-footer-redes">
-                    <li><a href="https://www.instagram.com/pizzar.ar" target="_blank"> <i class="fa-brands fa-instagram"></i>Instagram</a></li>
-                    <li><a href="https://www.tiktok.com/@pizzar.ar" target="_blank"><i class="fa-brands fa-tiktok"></i>Tiktok</a></li>
-                    <li><a href="https://wa.me/+5491158102877?text=Hola! Quiero hacer un pedido" target="_blank"><i class="fa-brands fa-whatsapp"></i>Whatsapp</a></li>
-                </ul>
+        </div>
+        <div class="container-fluid">
+            <div class="row bg-dark text-white text-center">
+                <div class="col">
+                <span class="copyright quick-links">Copyright &copy; Pizzar <script>document.write(new Date().getFullYear())</script>
+                </span>
+                </div>
             </div>
         </div>
     </footer>

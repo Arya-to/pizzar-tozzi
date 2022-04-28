@@ -2,6 +2,8 @@
     margin: 0;
     padding: 0;
 }
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300&display=swap');
+
 @font-face {
     font-family: bebasNeue-regular;
     src: url('../Fuentes/BebasNeue Bold.otf');
@@ -21,10 +23,14 @@
     src: url('../Fuentes/BebasNeue\ Light.otf');
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap');
 
-/* font-family: 'Poppins', sans-serif; */
+/* font-family: 'Poppins', sans-serif;
+   font-family: 'Pacifico', cursive; */
 
+
+body {
+    background-color: black;
+}
 h1 {
     font-family: 'Poppins', sans-serif;
     text-transform: uppercase;
@@ -32,8 +38,10 @@ h1 {
     color: #E2A900;  
 }
 
-#contenedor-header {
+.contenedor-header {
     background-color: black;
+    border-bottom: solid 1px grey;
+
 }
 
 .title {
@@ -121,9 +129,14 @@ h1 {
     width: 60%;
 }
 
+.contenedor-title {
+    background-color: black;
+}
+
 .menu-section {
     background-color: black;
 }
+
 .tarjeta img {
     border-radius: 50%;
     padding: 30px;
@@ -131,6 +144,7 @@ h1 {
 
 .contenedor-footer {
     background-color: black;
+    border-top: solid 1px grey;
 
 }
 
@@ -138,6 +152,85 @@ h1 {
     font-family: bebasNeue-bold, sans-serif;
 }
 
+.carousel-item img {
+    background-color: black;
+    height: 30rem;
+    object-fit: contain;
+}
+
+/* Formulario */
+
+.form {
+    background-color: black;
+    padding: 2%;
+    width: 100%;
+}
+
+.form-label {
+    color: white;
+    font-family: bebasNeue-regular, sans-serif;
+    font-size: 25px;
+}
+
+.input {
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 0;
+}
+
+#mensaje {
+    width: 100%;
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 0;
+}
+
+.boton {
+    background-color: #E2A900;
+    width: 35%;
+    color: white;
+    border-radius: 40px;
+    font-family: bebasNeue-regular, sans-serif; 
+    font-size: 22px;
+    height: 50px;
+    margin: auto;
+    border: 0;
+    display: block
+
+}
+
+/* Nosotros */
+
+.section-1 {
+    background-color: white;
+}
+
+.nosotros-tit {
+    font-family: 'Pacifico', cursive;
+    color: #E2A900;
+    font-size: 1.5rem;
+
+}
+
+.nosotros-sub {
+    font-family: bebasNeue-bold, sans-serif;
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+.nosotros-img img {
+    width: 28rem;
+}
+
+.section-2 {
+    background-color: #f4f4f4;
+}
 
 @media only screen and (max-width: 992px) {
     .header-list li a {

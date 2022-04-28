@@ -13,7 +13,7 @@
 <body>
    <!-- Header Boostrap -->
    <header>
-        <nav class="navbar navbar-dark bg-black navbar-expand-lg mb-3 contenedor-header">
+        <nav class="navbar navbar-dark bg-black navbar-expand-lg contenedor-header">
             <div class="container-fluid mx-3">
                 <a class="navbar-brand" href="../index.html">
                     <img class="img-fluid" src="../Imagenes/logo_pizzar.png" alt="logo de pizzar" width="100" height="100">
@@ -45,47 +45,79 @@
     </header>
 <!-- Fin header Boostrap -->
     <main>
-        <h1 class="title">Galeria de imagenes</h1>
-        <span class="linea"></span>
-        <section class="galeria">
-            <img src="../Imagenes/masa1.jpg" alt="">
-            <img src="../Imagenes/masa2.jpg" alt="">
-            <img src="../Imagenes/masa3.jpg" alt=""> 
-            <img src="../Imagenes/img1.png" alt="">   
-        </section>
-        <section class="galeria">
-            <img src="../Imagenes/pizza2.jpg" alt="">
-            <img src="../Imagenes/pizza1.jpg" alt="">
-            <img src="../Imagenes/pizza3.jpg" alt="">
-            <img src="../Imagenes/img2.png" alt="">
+        <section class="mb-5">
+            <div class="contenedor-title">
+                <h1 class="title">Galeria de imagenes</h1>
+                <span class="linea"></span>
+            </div>
+            <!-- Carousel -->
+            <div class="container-md">
+                <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active contenedor-carousel">
+                            <img src="../Imagenes/masa2.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../Imagenes/pizza2.jpg" class="d-block w-100" alt="...">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../Imagenes/pizza3.jpg" class="d-block w-100" alt="...">
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </div>
+            <!-- Fin Carousel -->
         </section>
     </main>
-    <footer class="footer">
-        <div class="contenedor-footer">
-            <div class="logo-footer">
-                <img src="../Imagenes/logo_footer.PNG" alt="Logo Pizzar">    
+    <!-- Footer Boostrap -->
+    <footer class="contenedor-footer">
+        <div class="container-fluid">
+          <div class="row py-5">
+                <div class="col-lg-4 d-flex align-items-center justify-content-center footer-column">
+                    <img class="w-50" src="../Imagenes/logo_footer.PNG" alt="Logo Pizzar">
+                </div>
+                <div class="col-lg-4 d-flex justify-content-center flex-column align-items-center footer-column">
+                    <h4 class="text-secondary">Horarios</h4>
+                    <ul class="nav flex-column text-secondary">
+                        <li class="nav-item">Lunes y martes: Cerrado</li>
+                        <li class="nav-item">Mier a Dom: 19:30 a 23:00hs</li>
+                    </ul>
+                </div>
+                <div class="col-lg-4 d-flex justify-content-center flex-column align-items-center footer-column">
+                    <h4 class="text-secondary">Contacto</h4>
+                    <ul class="nav flex-column text-secondary">
+                        <li class="nav-item">
+                            <i class="fab fa-whatsapp fa-2x"></i>
+                        <li class="nav-item">
+                            <i class="fab fa-instagram fa-2x"></i>
+                        </li>
+                    </ul>
+                </div>
             </div>
-            <div class="menu-footer">
-                <ul class="menu-footer-lista">
-                    <li><a href="../Paginas/nosotros.html">Nosotros</a></li>
-                    <li><a href="../Paginas/menu.html"> Menu</a></li>
-                    <li><a href="../Paginas/galeria.html">Galeria</a></li>
-                    <li><a href="../Paginas/contacto.html">Contacto</a></li>
-                </ul> 
-            </div>
-            <div>
-                <h4>Horarios de atención:</h4>
-                <p>Mier - Dom 19:00 a 23:00</p>
-            </div>
-            <div>
-                <ul class="menu-footer-redes">
-                    <li><a href="https://www.instagram.com/pizzar.ar" target="_blank"> <i class="fa-brands fa-instagram"></i>Instagram</a></li>
-                    <li><a href="https://www.tiktok.com/@pizzar.ar" target="_blank"><i class="fa-brands fa-tiktok"></i>Tiktok</a></li>
-                    <li><a href="https://wa.me/+5491158102877?text=Hola! Quiero hacer un pedido" target="_blank"><i class="fa-brands fa-whatsapp"></i>Whatsapp</a></li>
-                </ul>
+        </div>
+        <div class="container-fluid">
+            <div class="row bg-dark text-white text-center">
+                <div class="col">
+                <span class="copyright quick-links">Copyright &copy; Pizzar <script>document.write(new Date().getFullYear())</script>
+                </span>
+                </div>
             </div>
         </div>
     </footer>
+    <!-- Fin footer Boostrap -->
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
 </body>
