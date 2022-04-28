@@ -32,6 +32,10 @@ h1 {
     color: #E2A900;  
 }
 
+#contenedor-header {
+    background-color: black;
+}
+
 .title {
     font-weight: 200;
     font-size: 30px;
@@ -41,10 +45,18 @@ h1 {
 
 .linea {
     background: #717171;
-    height: 3px;
+    height: 2px;
     width: 100%;
     display: block;
     margin: 0 0 30px 0 ;
+}
+
+.linea-sup {
+    background: #717171;
+    height: 2px;
+    width: 100%;
+    display: block;
+    margin:  0 0 0 ;
 }
 
 .tittle h3 {
@@ -116,6 +128,16 @@ h1 {
     border-radius: 50%;
     padding: 30px;
 }
+
+.contenedor-footer {
+    background-color: black;
+
+}
+
+.footer-column {
+    font-family: bebasNeue-bold, sans-serif;
+}
+
 
 @media only screen and (max-width: 992px) {
     .header-list li a {
