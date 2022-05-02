@@ -98,7 +98,15 @@ h1 {
 }
 
 .navbar-dark .navbar-nav .nav-link {
-    color: #212529;
+    color: #fff;
+}
+
+#boton {
+    color:black;
+}
+
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #E2A900;
 }
 
 #bordeToggler {
