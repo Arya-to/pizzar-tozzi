@@ -1,0 +1,27 @@
+@import '../base/variables';
+
+.navbar-dark {
+    background-color: $color-secundario;
+    border-bottom: solid 1px $color-terciario;
+    .navbar-nav {
+        .nav-link {
+            color: $color-fonts;
+            font-family: $fuente-principal; 
+            font-size: 1.5rem;
+            margin: 20px;
+            text-align: center; 
+            
+            &:hover {
+                color: $color-primario;
+            }
+        
+            @media screen and (max-width: 992px) {
+            margin: 3px;
+            }
+        }
+    }
+}  
+    
+#bordeToggler {
+    border: solid 1px $color-primario;
+}

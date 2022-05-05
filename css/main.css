@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Pacifico&family=Poppins:wght@300&display=swap");
+* {
+  margin: 0;
+  padding: 0; }
+
+body {
+  background-color: black; }
+
+.title {
+  font-family: "Poppins", sans-serif;
+  color: #E2A900;
+  font-size: 40px;
+  font-weight: 200;
+  text-align: center;
+  padding: 30px;
+  text-transform: uppercase;
+  border-bottom: #6f6d6d; }
+
+@font-face {
+  font-family: bebasNeue-regular;
+  src: url("../Fuentes/BebasNeue Bold.otf"); }
+
+@font-face {
+  font-family: bebasNeue-bold;
+  src: url("../Fuentes/BebasNeue Bold.otf"); }
+
+@font-face {
+  font-family: bebasNeue-thin;
+  src: url("../Fuentes/BebasNeue Thin.otf"); }
+
+@font-face {
+  font-family: bebasNeue-light;
+  src: url("../Fuentes/BebasNeue Light.otf"); }
+
+.navbar-dark {
+  background-color: black;
+  border-bottom: solid 1px #6f6d6d; }
+  .navbar-dark .navbar-nav .nav-link {
+    color: white;
+    font-family: bebasNeue-bold, sans-serif;
+    font-size: 1.5rem;
+    margin: 20px;
+    text-align: center; }
+    .navbar-dark .navbar-nav .nav-link:hover {
+      color: #E2A900; }
+    @media screen and (max-width: 992px) {
+      .navbar-dark .navbar-nav .nav-link {
+        margin: 3px; } }
+
+#bordeToggler {
+  border: solid 1px #E2A900; }
+
+.contenedor-footer {
+  background-color: black;
+  border-top: solid 1px #6f6d6d; }
+  .contenedor-footer .footer-column {
+    font-family: bebasNeue-bold, sans-serif; }
+
+.form {
+  background-color: black;
+  padding: 2%;
+  width: 100%; }
+
+.form-label {
+  color: white;
+  font-family: bebasNeue-regular, sans-serif;
+  font-size: 25px; }
+
+.input {
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  padding: 10px;
+  margin-bottom: 20px;
+  border-radius: 8px;
+  border: 0; }
+
+#mensaje {
+  width: 100%;
+  font-family: "Poppins", sans-serif;
+  font-size: 20px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 0; }
+
+.boton {
+  background-color: #E2A900;
+  width: 35%;
+  color: white;
+  border-radius: 40px;
+  font-family: bebasNeue-regular, sans-serif;
+  font-size: 22px;
+  height: 50px;
+  margin: auto;
+  border: 0;
+  display: block; }

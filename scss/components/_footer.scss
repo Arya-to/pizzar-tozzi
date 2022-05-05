@@ -1,0 +1,9 @@
+.contenedor-footer {
+    background-color: $color-secundario;
+    border-top: solid 1px $color-terciario;
+
+    .footer-column {
+        font-family: $fuente-principal;
+    }
+}
+

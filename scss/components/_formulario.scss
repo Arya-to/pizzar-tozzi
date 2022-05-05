@@ -1,0 +1,45 @@
+
+.form {
+    background-color: $color-secundario;
+    padding: 2%;
+    width: 100%;
+}
+
+.form-label {
+    color: $color-fonts;
+    font-family: $fuente-terciaria;
+    font-size: 25px;
+}
+
+.input {
+    width: 100%;
+    font-family: $fuente-secundaria;
+    font-size: 20px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 0;
+}
+
+#mensaje {
+    width: 100%;
+    font-family: $fuente-secundaria;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 8px;
+    border: 0;
+}
+
+.boton {
+    background-color: $color-primario;
+    width: 35%;
+    color: $color-fonts;
+    border-radius: 40px;
+    font-family: $fuente-terciaria;
+    font-size: 22px;
+    height: 50px;
+    margin: auto;
+    border: 0;
+    display: block
+
+}
