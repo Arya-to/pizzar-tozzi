@@ -1,0 +1,24 @@
+.section-1 {
+    background-color: $color-fonts;
+}
+
+.nosotros-tit {
+    font-family: $fuente-subtitulos, cursive;
+    color: $color-primario;
+    font-size: 1.5rem;
+
+}
+
+.nosotros-sub {
+    font-family: $fuente-principal, sans-serif;
+    text-transform: uppercase;
+    font-size: 2rem;
+}
+
+.nosotros-img img {
+    width: 28rem;
+}
+
+.section-2 {
+    background-color: #f4f4f4;
+}

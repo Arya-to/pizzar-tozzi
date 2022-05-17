@@ -4,6 +4,33 @@
 
     .footer-column {
         font-family: $fuente-principal;
+    
+        .footer-title {
+            color: darken($color-fonts, 10%);
+            font-size: map-get($fontsize, links);
+            text-decoration: underline;
+        }
+        .footer-text {
+            color: darken($color-fonts, 20%);
+            font-size: map-get($fontsize, letra-chica);
+            letter-spacing: 0.5px;
+
+            .nav-item {
+                color: darken($color-fonts, 20%);
+                display: inline;
+                
+                i {
+                    &:hover {
+                        transform: scale(1.3);
+                        transition: 0.5s;
+                        color: $color-primario;
+                        cursor: pointer;
+                    }
+                    
+                }
+
+            }       
+        }
     }
 }
 

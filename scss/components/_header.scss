@@ -7,7 +7,7 @@
         .nav-link {
             color: $color-fonts;
             font-family: $fuente-principal; 
-            font-size: 1.5rem;
+            font-size: map-get($fontsize, links);
             margin: 20px;
             text-align: center; 
             
