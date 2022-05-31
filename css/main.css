@@ -78,13 +78,34 @@ body {
   padding: 5px 40px; }
 
 .img-bg {
-  background-image: url("../Imagenes/black-smooth-textured-paper-background.jpg");
+  background-image: url("../../Imagenes/black-smooth-textured-paper-background.jpg");
   background-size: cover;
   width: 100%;
   min-height: 80vh; }
 
 .main-image {
   width: 60%; }
+  @media screen and (max-width: 992px) {
+    .main-image {
+      width: 80%; } }
+
+.section-two {
+  padding: 60px; }
+  .section-two h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-family: bebasNeue-bold, sans-serif;
+    font-size: 3rem;
+    padding-bottom: 20px; }
+  @media screen and (max-width: 992px) {
+    .section-two .delivery-section {
+      display: flex;
+      align-items: center; } }
+  .section-two .delivery-section img {
+    margin: 15px; }
+  .section-two .delivery-section p {
+    font-family: bebasNeue-regular, sans-serif;
+    font-size: 1.5rem; }
 
 .navbar-dark {
   background-color: black;
