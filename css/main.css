@@ -101,6 +101,12 @@ body {
     .section-two .delivery-section {
       display: flex;
       align-items: center; } }
+  @media screen and (max-width: 480px) and (min-width: 320px) {
+    .section-two .delivery-section {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin: 1rem; } }
   .section-two .delivery-section img {
     margin: 15px; }
   .section-two .delivery-section p {
@@ -191,6 +197,14 @@ body {
   margin: auto;
   border: 0;
   display: block; }
+  @media screen and (max-width: 792px) {
+    .boton {
+      width: 50%;
+      border-radius: 20px; } }
+  @media screen and (max-width: 480px) and (min-width: 320px) {
+    .boton {
+      width: 90%;
+      border-radius: 10px; } }
 
 .galeria {
   display: grid;
