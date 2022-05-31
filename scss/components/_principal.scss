@@ -83,3 +83,13 @@
         }
     }
 }
+
+.section-three {
+    h2 {
+        text-align: center;
+        text-transform: uppercase;
+        font-family: $fuente-principal;
+        color: $color-fonts;
+        font-size: 2.8rem;
+    }
+}

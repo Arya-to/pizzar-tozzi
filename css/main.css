@@ -107,6 +107,13 @@ body {
     font-family: bebasNeue-regular, sans-serif;
     font-size: 1.5rem; }
 
+.section-three h2 {
+  text-align: center;
+  text-transform: uppercase;
+  font-family: bebasNeue-bold, sans-serif;
+  color: white;
+  font-size: 2.8rem; }
+
 .navbar-dark {
   background-color: black;
   border-bottom: solid 1px #6f6d6d; }
