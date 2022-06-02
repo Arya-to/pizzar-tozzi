@@ -238,7 +238,8 @@ body {
       margin: 20px; } }
   .tarjeta img {
     border-radius: 50%;
-    padding: 30px; }
+    padding: 30px;
+    width: 125px; }
     @media screen and (max-width: 992px) {
       .tarjeta img {
         width: 90%; } }
