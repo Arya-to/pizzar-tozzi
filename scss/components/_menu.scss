@@ -2,7 +2,20 @@
     background-color: black;
 }
 
-.tarjeta img {
+.tarjeta {
+    display: flex;
+    align-items: center;
+
+    @media screen and (max-width: 992px) {
+        margin: 20px;
+    }
+
+    img {
     border-radius: 50%;
     padding: 30px;
+
+    @media screen and (max-width: 992px) {
+        width: 70%;
+    }
+    }
 }

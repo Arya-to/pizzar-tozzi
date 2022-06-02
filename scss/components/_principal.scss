@@ -1,12 +1,4 @@
 .title-principal {
-    font-family: $fuente-secundaria;
-    color: $color-primario; 
-    font-size: map-get($fontsize, subtitulos);
-    font-weight: 200;
-    text-align: start;
-    padding: 30px;
-    text-transform: uppercase;
-
     h1 {
         font-family: $fuente-principal, sans-serif;
         font-weight: bold;
