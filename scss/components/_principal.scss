@@ -7,10 +7,19 @@
         font-size: 4.2rem;
         color: $color-primario;  
 
+        @media screen and (max-width:768px ) {
+            font-size: 3.3em;
+            line-height: 55px;
+        }
+
         span {
             color: $color-fonts;
             font-weight: bolder;
             font-size: 4.8rem;
+
+            @media screen and (max-width:768px ) {
+                font-size: 3.3rem;
+            }
         }
     }
 
@@ -21,6 +30,12 @@
         text-transform: uppercase;
         font-size: 2.4rem;
         color: lighten($color-terciario, 35%);
+
+        @media screen and (max-width:768px ) {
+            font-size: 1.75em;
+            line-height: 30px;
+            margin-bottom: 5px;
+        }
     }
 }
 
@@ -47,7 +62,7 @@
 .main-image {
     width: 60%;
     @media screen and (max-width: 992px) {
-        width: 80%;
+        width: 70%;
     }
 }
 
@@ -61,12 +76,8 @@
         padding-bottom: 20px;
     }
     .delivery-section {
-        @media screen and (max-width: 992px) {
-            display: flex;
-            align-items: center;
-        }
 
-        @media screen and (max-width: 480px) and (min-width: 320px) {
+        @media screen and (max-width: 992px) {
             display: flex;
             flex-direction: column;
             align-items: center;
